@@ -1,4 +1,4 @@
-# Rectangularbot
+# rectangularbot
 An archival Discord bot for the cardistry community. That is, a bot that allows cardists on Discord to access popular tutorials for their favorite flourishes, indexing both those currently available and many thought to be lost to time.
 
 ## Commands
