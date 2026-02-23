@@ -11,6 +11,9 @@ The `tutorial` command allows a user to request a link to a specific tutorial. I
 ![an example of a failed tutorial request](/tutorial-failure.png)
 
 ### `show`
-The `show` command generates a text file containing the names of all the moves that match some search criteria and sends that file as a response to the command. It must be followed by exactly one argument, which is a tag to filter Rectangularbot's library by. A tag is the name of a cardist, cardistry brand, or a move type. For the `show` command, users may also use the argument `all`, which returns all moves currently in the library.
+The `show` command generates a text file containing the names of all the moves that match some search criteria and sends that file as a response to the command. It must be followed by exactly one argument, which is a tag to filter Rectangularbot's library by. A tag is the name of a cardist, cardistry brand, media type (video, tutorial pack, book), or a move type (cuts, twirls, fans, aerial moves, etc). For the `show` command, users may also use the argument `all`, which returns all moves currently in the library.
 
-![an example of the show command for all oliver sogard moves](/show-oliver-sogard)
+![an example of the show command for all oliver sogard moves](/show-oliver-sogard.png)
+
+### 'random'
+The `random` command allows a user to request a random move from Rectangularbot's library. It is optionally followed by an argument for the tag from which to make a random selection. For example `$random fans` sends a link to a tutorial for a random fan move. In the absence of an argument, `random` selects from the entire library.
