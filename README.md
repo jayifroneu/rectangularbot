@@ -12,3 +12,5 @@ The `tutorial` command allows a user to request a link to a specific tutorial. I
 
 ### `show`
 The `show` command generates a text file containing the names of all the moves that match some search criteria and sends that file as a response to the command. It must be followed by exactly one argument, which is a tag to filter Rectangularbot's library by. A tag is the name of a cardist, cardistry brand, or a move type. For the `show` command, users may also use the argument `all`, which returns all moves currently in the library.
+
+![an example of the show command for all oliver sogard moves](/show-oliver-sogard)
