@@ -5,7 +5,10 @@ An archival Discord bot for the cardistry community. That is, a bot that allows 
 Users can interface with Rectangularbot's library through a variety of commands, all of which are prefixed (aligning with common Discord bot style) with `$`. Commands may be followed in some cases by arguments, which are space-delimited.
 
 ### `tutorial`
-The tutorial command allows a user to request a link to a specific tutorial. It must be followed by exactly one argument, which is the name of the requested move. If such Rectangularbot can't find a tutorial with that name, it will instead provide a link to a form where users can request the addition of new moves.
+The `tutorial` command allows a user to request a link to a specific tutorial. It must be followed by exactly one argument, which is the name of the requested move. If such Rectangularbot can't find a tutorial with that name, it will instead provide a link to a form where users can request the addition of new moves.
 
 ![an example of a successful tutorial request](/tutorial-success.png)
+![an example of a failed tutorial request](/tutorial-failure.png)
 
+### `show`
+The `show` command generates a text file containing the names of all the moves that match some search criteria and sends that file as a response to the command. It must be followed by exactly one argument, which is a tag to filter Rectangularbot's library by. A tag is the name of a cardist, cardistry brand, or a move type. For the `show` command, users may also use the argument `all`, which returns all moves currently in the library.
